@@ -34,3 +34,25 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
     });
 ```
 <br><br>
+
+#### jquery dropDown menu 구현 (개선필요)
+<br>
+
+```javascript
+    // 만들어놓은 드랍메뉴는 일단 숨긴다.
+    $(".dropMenu").hide();
+    // 드랍메뉴를 나타낼 버튼을 클릭하면
+    $(moreBtn).click(function(){
+        // 만약 아무것도 없는 상태라면
+        if($(".dropMenu").css("display") == "none") {
+            // 드랍메뉴를 보여주고
+            $(".dropMenu").show();
+        // 드랍메뉴가 있는 상태라면
+        } else {
+            // 다시 숨긴다.
+            $(".dropMenu").hide();
+        }
+    });
+```
+<br><br>
+
