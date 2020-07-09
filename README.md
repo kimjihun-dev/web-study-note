@@ -4,7 +4,7 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
 **jquery accordion 아코디언 구현**
 <br>
 
-```jquery
+```javascript
     $(document).ready(function(){
       // 클릭해서 보여줄 요소를 숨김
       $("ul").hide();
