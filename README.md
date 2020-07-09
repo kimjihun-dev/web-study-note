@@ -24,9 +24,12 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
 
 ```javascript
     $(allBtn).click(function(){
+        // 보여줘야 될 div 는 미리 left -320px 라는 옵션을 줘서 화면에서 숨겨준다.
+        // 버튼 클릭시 left 값 0을 줘서 나타나게 한다.
         $("#sideNav").animate({left: "0px"}, 300);
     });
     $(closeBtn).click(function(){
+        // 다시 마이너스 옵션을 줘서 닫기 버튼클릭시 화면에서 숨긴다.
         $("#sideNav").animate({left: "-320px"}, 300);
     });
 ```
