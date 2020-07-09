@@ -3,8 +3,8 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
 <br><br>
 **jquery accordion 아코디언 구현**
 <br>
-<pre>
-  <code>
+
+```jquery
     $(document).ready(function(){
       // 클릭해서 보여줄 요소를 숨김
       $("ul").hide();
@@ -16,7 +16,7 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
         $(".accordion > a").not(this).next().slideUp("slow");
       });
     });
-  </code>
-</pre>
+```  
+
 
 
