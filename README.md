@@ -1,9 +1,8 @@
 # web-study-note
 HTML5, CSS3, Javascript, jQuery 관련 정리노트
 <br><br>
-**jquery accordion 아코디언 구현**
+##### jquery accordion 아코디언 구현
 <br>
-
 ```javascript
     $(document).ready(function(){
       // 클릭해서 보여줄 요소를 숨김
@@ -18,7 +17,7 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
     });
 ```  
 <br><br>
-##### jquery side nav 구현
+>jquery side nav 구현
 
 
 
