@@ -34,7 +34,6 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
     });
 ```
 <br><br>
-
 #### jquery dropDown menu 구현 (개선필요)
 <br>
 
@@ -55,4 +54,23 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
     });
 ```
 <br><br>
+#### jquery scrollTop 구현
+<br>
+
+```javascript
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 500) {
+            $("#topBtn").fadeIn();
+        } else {
+            $("#topBtn").fadeOut();
+        }
+    });
+
+    $("#topBtn").click(function(){
+        $("html, body").animate({
+            scrollTop: 0
+        }, 400);
+        return false;
+    });
+```
 
