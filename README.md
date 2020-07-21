@@ -76,6 +76,7 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
 <br><br>
 #### jquery navtigation 구현(작성중)
 <br>
+
 ```javascript
     $(".gnb4 h2").mouseover(function(){
       $("#header4").stop().animate({ height:"240px" });
@@ -84,5 +85,6 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
           $("#header4").stop().animate({ height:"80px" });
      }); 
 ```
+
 
 
