@@ -110,12 +110,12 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
 <br>
 
 ```javascript
-    // 코드 하단에 아래의 스크립트 첨부
-   document.addEventListener('DOMContentLoaded', function () {
-       var trigger = new ScrollTrigger({
+// 코드 하단에 아래의 스크립트 첨부
+document.addEventListener('DOMContentLoaded', function () {
+	var trigger = new ScrollTrigger({
 	addHeight: true
-       });
-    });
+	});
+});
 ```
 <br>
 
