@@ -96,7 +96,7 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
 <br>    
 
 ```css
-    <ul data-scroll="toggle(.fromBottomIn, .fromBottomOut)">  // 적용대상에 data-scroll 를 넣는다.
+<ul data-scroll="toggle(.fromBottomIn, .fromBottomOut)">  // 적용대상에 data-scroll 를 넣는다.
 ```
 <br>
     옵션들
