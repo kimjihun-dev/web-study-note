@@ -87,15 +87,25 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
 ```
 <br><br>
 #### ScrollTrigger 구현하기 (스크롤다운시 요소들이 부드럽게 올라오는 효과)
+<br>
 
     필요파일
+    
     1. ScrollTrigger.min.js
     2. animations.css  // 효과를 줄 대상에 transition, tramsform 를 정의.
     
 ```html
-    <ul data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+    <ul data-scroll="toggle(.fromBottomIn, .fromBottomOut)">  // 적용대상에 data-scroll 를 넣는다.
 ```
-
+<br>
+    옵션들
+    
+    data-scroll="toggle(.fromTopIn, .fromTopOut)"
+    data-scroll="toggle(.fromBottomIn, .fromBottomOut)"
+    data-scroll="toggle(.fromLeftIn, .fromLeftOut)"
+    data-scroll="toggle(.fromRightIn, .fromRightOut)"
+    data-scroll="toggle(.scaleDownIn, .scaleDownOut)"
+<br>    
 ```javascript
     document.addEventListener('DOMContentLoaded', function(){
         var trigger = new ScrollTrigger({
