@@ -93,8 +93,8 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
     
     1. ScrollTrigger.min.js
     2. animations.css  // 효과를 줄 대상에 transition, tramsform 를 정의.
-    
-```html
+<br>    
+```css
     적용방법
     <ul data-scroll="toggle(.fromBottomIn, .fromBottomOut)">  // 적용대상에 data-scroll 를 넣는다.
 ```
@@ -110,11 +110,14 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
 <br>
 
 ```javascript
-    document.addEventListener('DOMContentLoaded', function(){
-        var trigger = new ScrollTrigger({
-        addHeight: true
+    // 코드 하단에 아래의 스크립트 첨부
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            var trigger = new ScrollTrigger({
+                addHeight: true
+            });
         });
-    });        
+	</script>
 ```
 <br>
 
