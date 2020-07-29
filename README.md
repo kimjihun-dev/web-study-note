@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <br><br>
 #### jQuery 로 구현하는 Tab Menu
 <br>
-```html
+```css
 <ul class="tabs">
     <li class="tab-link current" data-tab="tab-1">Menu01</li>
     <li class="tab-link" data-tab="tab-2">Menu02</li>
