@@ -120,6 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <br><br>
 #### jQuery 로 구현하는 Tab Menu
 <br>
+
 ```css
     <ul class="tabs">
         <li class="tab-link current" data-tab="tab-1">Menu01</li>
@@ -130,17 +131,19 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="tab-2" class="tab-content">Menu02 contents</div>
     <div class="tab-3" class="tab-content">Menu03 contents</div>
 ```
+
 <br>
+
 ```javascript
     $("ul.tabs li").click(function(){
         const tab_id = $(this).attr("data-tab");
-
         $("ul.tabs li").removeClass("current");
         $(".tab-content").removeClass("current");
         $(this).addClass("current");
         $("#"+tab_id).addClass("current");
     });
 ```
+
 <br>
 
 
