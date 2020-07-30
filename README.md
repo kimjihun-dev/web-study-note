@@ -4,7 +4,29 @@ HTML5, CSS3, Javascript, jQuery 관련 정리노트
 #### NanumSquare webfont
     
 [나눔스퀘어웹폰트링크](https://github.com/moonspam/NanumSquare)
-    
+
+link 방식(권장)
+
+```css
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+```
+
+import 방식
+
+```css
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+```
+
+적용
+
+```css
+body		{ font-family: 'NanumSquare', sans-serif; }
+.normal		{ font-weight: 400 }
+.bold		{ font-weight: 700 }
+.bolder		{ font-weight: 800 }
+.light		{ font-weight: 300 }
+```
+
 <br>
 
 #### jquery accordion 아코디언 구현
