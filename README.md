@@ -1,6 +1,10 @@
 # web-study-note
 HTML5, CSS3, Javascript, jQuery 관련 정리노트
 <br><br>
+#### NanumSquare webfont
+<br>
+    https://github.com/moonspam/NanumSquare
+<br>
 #### jquery accordion 아코디언 구현
 <br>
 
