@@ -2,8 +2,8 @@
 HTML5, CSS3, Javascript, jQuery 관련 정리노트
 <br><br>
 #### NanumSquare webfont
-
-    [나눔스퀘어웹폰트링크](https://github.com/moonspam/NanumSquare)
+    
+[나눔스퀘어웹폰트링크](https://github.com/moonspam/NanumSquare)
     
 <br>
 
