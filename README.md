@@ -80,6 +80,14 @@ body		{ font-family: 'NanumSquare', sans-serif; }
             $(".dropMenu").hide();
         }
     });
+    
+    // fadeToggle 를 이용
+    $(".gnb .m").hover(function(){
+        // 풀다운 메뉴에 사용
+        // 메뉴에 마우스오버시 해당되는 요소안에 div 를 찾아 보여준다.
+        // Toggle 는 in out 이 다 되는 태그
+        $(this).find("div").stop().fadeToggle(200);
+    });
 ```
 <br><br>
 #### jquery scrollTop 구현
