@@ -170,6 +170,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <br>
 
+```css
+    // 메뉴를 클릭할시 나타내는 컨텐츠들은 기본으로 display none으로 설정
+    .tab-content { display: none; }
+    // 스크립트 구문에서 클릭시 다시 나타낸다.
+    .tab-content.current { display: block; }
+```
+
+<br>
+
 ```javascript
     $("ul.tabs li").click(function(){
         const tab_id = $(this).attr("data-tab");
