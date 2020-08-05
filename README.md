@@ -163,9 +163,9 @@ document.addEventListener('DOMContentLoaded', function () {
         <li class="tab-link" data-tab="tab-2">Menu02</li>
         <li class="tab-link" data-tab="tab-3">Menu03</li>
     </ul>
-    <div class="tab-1" class="tab-content current">Menu01 contents</div>
-    <div class="tab-2" class="tab-content">Menu02 contents</div>
-    <div class="tab-3" class="tab-content">Menu03 contents</div>
+    <div id="tab-1" class="tab-content current">Menu01 contents</div>
+    <div id="tab-2" class="tab-content">Menu02 contents</div>
+    <div id="tab-3" class="tab-content">Menu03 contents</div>
 ```
 
 <br>
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ```javascript
     $("ul.tabs li").click(function(){
         const tab_id = $(this).attr("data-tab");
-        $("ul.tabs li").removeClass("current");
+        $(".tab-link").removeClass("current");
         $(".tab-content").removeClass("current");
         $(this).addClass("current");
         $("#"+tab_id).addClass("current");
