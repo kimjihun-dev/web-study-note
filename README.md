@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <br>
 
 ```javascript
-    $("ul.tabs li").click(function(){
+    $("ul.tabs .tab-link").click(function(){
         const tab_id = $(this).attr("data-tab");
         $(".tab-link").removeClass("current");
         $(".tab-content").removeClass("current");
