@@ -29,6 +29,17 @@ body		{ font-family: 'NanumSquare', sans-serif; }
 
 <br>
 
+### 이롭게 바탕체 웹폰트 적용하기
+
+import 방식
+
+```css
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+body { font-family: 'Iropke Batang', serif; }
+```
+
+<br>
+
 #### jquery accordion 아코디언 구현
 <br>
 
