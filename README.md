@@ -200,6 +200,29 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 ```
 
+<br><br>
+#### 모바일 버튼 클릭시 어두운 배경화면 만들기
 <br>
+
+```html
+    // div 개체 두개를 만들어 하나는 전체메뉴 하나는 배경이미지로 지정
+    <div class="moblie_wrap"></div>
+    <div class="mobile_bg"></div>
+```
+
+<br>
+
+```css
+    // 어두운 배경
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1050;
+```
+
 
 
