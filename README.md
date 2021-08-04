@@ -55,7 +55,22 @@ body { font-family: 'Iropke Batang', serif; }
         $(".accordion > a").not(this).next().slideUp("slow");
       });
     });
-```  
+``` 
+<br>
+```javascript
+    또 다른 방법
+    $(document).ready(function(){
+        // 기본적으로 다 숨김상태
+        $(".depth-2").hide()
+        // 메뉴 클릭시
+        $(".menu").click(function (){
+			// 메뉴 클릭시 하위메뉴들이 나오게 한다.
+            // 내가 클릭한 메뉴의 하위 메뉴들이 아니면 슬라이드업으로 올려버리고
+            // 내가 클릭한것이면 슬라이드로 내려오게 한다.
+			$(".depth-2").not($(this).next(".m-depth-2").slideToggle(500)).slideUp();
+		});
+    });
+```
 
 <br><br>
 #### jquery side nav 구현
