@@ -240,5 +240,48 @@ document.addEventListener('DOMContentLoaded', function () {
     z-index: 1050;
 ```
 
+<br><br>
+#### 햄버거 메뉴 만들기
+<br>
+
+```html
+   <a href="#" class="menuOpen">
+    <span class="top"></span>
+    <span class="mid"></span>
+    <span class="bot"></span>
+   </a>
+```
+
+
+```css
+  header .menuOpen {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 16px;
+  line-height: 100px;
+}
+
+header .menuOpen span {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header .menuOpen span.mid {
+  top: 50%;
+}
+
+header .menuOpen span.bot {
+  top: 100%;
+}
+
+```
 
 
